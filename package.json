@@ -1,7 +1,7 @@
 {
   "name": "go-group-imports",
   "displayName": "Go Group Imports",
-  "description": "support workspace",
+  "description": "support workspace, fix save loop issue",
   "version": "1.2.0",
   "publisher": "aleksandra",
   "icon": "assets/logo.png",
