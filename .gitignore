@@ -1,5 +1,4 @@
 out
 node_modules
 .vscode-test/
-.vsix
-go-group-imports-*.vsix
+*.vsix
