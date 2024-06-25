@@ -40,7 +40,7 @@ export const goGroupImports = async () => {
   )
   const newImports = importGroupsToString(groupedList)
   edit.replace(document.uri, range, newImports)
-  workspace.applyEdit(edit).then(document.save)
+  return workspace.applyEdit(edit)
 }
 
 type ImportGroups = {
