@@ -1,6 +1,6 @@
 {
-  "name": "go-group-imports",
-  "displayName": "Go Group Imports",
+  "name": "go-group-imports-topull",
+  "displayName": "[forkedToPull]Go Group Imports",
   "description": "VSCode extension for separating imports in go files into three groups: stdlib, 3rdparty, own.",
   "version": "1.2.0",
   "publisher": "aleksandra",
