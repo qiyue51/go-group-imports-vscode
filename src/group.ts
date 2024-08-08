@@ -20,8 +20,7 @@ export const goGroupImports = async () => {
   }
   // TODO show error
 
-  const projectRoot = workspace.workspaceFolders[0].uri.path;
-  const output = await execCommand(projectRoot, 'go list -m');
+  const output = await execCommand('go list -m');
   const modules = output.split('\n').filter(line => line.trim() !== '');
 
   const imports = getImports(documentText)
