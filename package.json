@@ -1,8 +1,8 @@
 {
-  "name": "go-group-imports",
+  "name": "go-group-imports-workspace",
   "displayName": "Go Group Imports",
-  "description": "VSCode extension for separating imports in go files into three groups: stdlib, 3rdparty, own.",
-  "version": "1.2.0",
+  "description": "[forked] support workspace, module mode can be used even if the project is under GOPATH, fix some save issue",
+  "version": "1.2.1",
   "publisher": "aleksandra",
   "icon": "assets/logo.png",
   "galleryBanner": {
